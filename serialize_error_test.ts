@@ -1,6 +1,6 @@
 const { test } = Deno;
 import { assert, assertEquals, assertNotEquals } from "./deps.ts";
-import { serializeError, deserializeError } from "./serilize-error.ts";
+import { serializeError, deserializeError } from "./serilize_error.ts";
 import { JsonObject } from "./index.d.ts";
 
 // TODO(): Improve serialized types

@@ -1,4 +1,4 @@
-# deno-serialize-error ![ci](https://github.com/rjoydip/deno-serialize-error/workflows/ci/badge.svg)
+# deno_serialize_error ![ci](https://github.com/rjoydip/deno_serialize_error/workflows/ci/badge.svg)
 
 > Serialize/deserialize an error into a plain object
 
@@ -7,7 +7,7 @@ Useful if you for example need to `JSON.stringify()` or `process.send()` the err
 ## Usage
 
 ```ts
-import {serializeError, deserializeError} from "https://deno.land/x/deno-serialize-error/mod.ts";
+import {serializeError, deserializeError} from "https://deno.land/x/deno_serialize_error/mod.ts";
 
 const error = new Error('🦄');
 
